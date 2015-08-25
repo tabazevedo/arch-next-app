@@ -1,0 +1,33 @@
+{
+  "name": "arch-next-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tabazevedo/arch-next-app"
+  },
+  "keywords": [
+    "arch",
+    "arch-next",
+    "immutable",
+    "react"
+  ],
+  "author": "Tiago Azevedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tabazevedo/arch-next-app/issues"
+  },
+  "homepage": "https://github.com/tabazevedo/arch-next-app",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-eslint": "^4.0.10",
+    "babel-runtime": "^5.8.20",
+    "eslint": "^1.2.1"
+  },
+  "dependencies": {
+    "react": "^0.14.0-beta1",
+    "react-dom": "^0.14.0-beta1"
+  }
+}
