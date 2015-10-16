@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "",
   "main": "app/index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "babel-node app/server.js"
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/tabazevedo/arch-next-app"
@@ -27,7 +29,8 @@
     "eslint": "^1.2.1"
   },
   "dependencies": {
-    "react": "^0.14.0-beta1",
-    "react-dom": "^0.14.0-beta1"
+    "arch-next": "0.0.1",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   }
 }
