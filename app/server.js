@@ -7,3 +7,5 @@ const options = {
 }
 
 const app = server(Application, options).start();
+
+export default app;
