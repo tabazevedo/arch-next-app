@@ -1,6 +1,9 @@
 import Application from './index';
 import server from 'arch-next/server';
 
-const AppServer = server(Application);
+const options = {
+  port: 3000,
+  template: '<html><body>{{root}}</body></html>'
+}
 
-AppServer.listen(3000);
+const app = server(Application, options).start();
