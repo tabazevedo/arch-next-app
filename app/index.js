@@ -1,4 +1,4 @@
-import { application, component, route } from 'arch-next';
+import { application, route } from 'arch-next';
 import React from 'react';
 
 /* Routes */
