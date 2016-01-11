@@ -1,5 +1,4 @@
 import { application, route } from 'arch-next';
-import React from 'react';
 
 /* Routes */
 import ViewPostRoute from './routes/posts/view';
@@ -9,6 +8,6 @@ const routes = [
 ];
 
 export default application({
-  react: React,
+  domRoot: "my-blog",
   routes: routes
 });
