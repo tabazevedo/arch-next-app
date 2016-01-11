@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body, html {
+  background: #FCFCFC;
+  color: #35393b;
+  font-family: "Open Sans";
+  font-size: 14px;
+}

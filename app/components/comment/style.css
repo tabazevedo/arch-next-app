@@ -1,0 +1,12 @@
+.comment {
+  background: white;
+  padding: 25px 25px 0px 25px;
+}
+
+.comment:first-child {
+  padding-bottom: 25px;
+}
+
+.author {
+  margin-bottom: 15px;
+}

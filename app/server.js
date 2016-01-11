@@ -1,3 +1,4 @@
+import "../bootstrap";
 import Application from './index';
 import convert from 'koa-convert';
 import path from 'path';

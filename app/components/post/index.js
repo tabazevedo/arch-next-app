@@ -1,5 +1,6 @@
 import React from 'react';
 import Comment from '../comment';
+import style from './style.css';
 
 export default class Post extends React.Component {
   static propTypes = {
@@ -20,10 +21,10 @@ export default class Post extends React.Component {
   render() {
     return (
       <div className="Post">
-        <h2 className="Post__title">{this.props.title}</h2>
-        <h4 className="Post__author">{this.props.author}</h4>
-        <p className="Post__body">{this.props.body}</p>
-        <div className="Post__comments">{this.renderComments()}</div>
+        <h2 className={style.title}>{this.props.title}</h2>
+        <h4 className={style.author}>{this.props.author}</h4>
+        <p className={style.body}>{this.props.body}</p>
+        <div className={style.comments}>{this.renderComments()}</div>
       </div>
     )
   }
